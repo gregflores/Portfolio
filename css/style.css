@@ -447,7 +447,7 @@ button:focus {
 .home_banner_area {
 	z-index: 1;
 	background: url(../img/banner/greg-banner.png) no-repeat top center;
-	background-position: center;
+	background-position: left;
 	background-size: cover;
 }
 .home_banner_area .banner_inner {
@@ -496,6 +496,11 @@ button:focus {
 @media (max-width: 575px) {
 	.home_banner_area .banner_inner .banner_content h3:after {
 		display: none;
+	}
+
+	.home_banner_area {
+		z-index: 1;
+		background: none;
 	}
 }
 .home_banner_area .banner_inner .banner_content h1 {
@@ -3874,7 +3879,7 @@ h6 {
 
 	.home_banner_area .banner_inner {
 		min-height: 300px;
-		padding-top: 200px;
+		padding-top: 50px;
 		padding-bottom: 50px;
 	}
 
@@ -3882,9 +3887,14 @@ h6 {
 		margin-top: 0px;
 	}
 	.home_banner_area .banner_inner .banner_content .primary_btn {
-		display: none;
+		display: inline-block;
+		margin: 10px;
 	}
 
+	.home_banner_area .banner_inner .banner_content .align-items-center {
+		align-items: baseline !important;
+		display: inline !important;
+	}
 	/* Blog Page Area css
   ============================================================================================ */
 	.blog_info.text-right {
@@ -4126,7 +4136,7 @@ h6 {
 	padding: 0 0px;
 	margin: 20px;
 	font-size: 1rem;
-	color: #000000;
+	color: #854fee;
 }
 .footer_area .footer_social a i {
 	-webkit-transition: all 0.4s ease 0s;
@@ -4157,15 +4167,3 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
-
-.w3-spin {
-	animation: w3-spin 2s infinite linear;
-}
-@keyframes w3-spin {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(359deg);
-	}
-}
