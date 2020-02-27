@@ -16,7 +16,7 @@ Author E-mail: naimlasker@gmail.com
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -28,7 +28,7 @@ Author E-mail: naimlasker@gmail.com
 body {
 	line-height: 26px;
 	font-size: 15px;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #777777;
 	background: url(../img/body-bg.png) no-repeat center;
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	color: #000000;
 }
@@ -217,7 +217,7 @@ button:focus {
 	display: inline-block;
 	color: #fff;
 	letter-spacing: 0px;
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 46px;
@@ -289,7 +289,7 @@ button:focus {
 	margin-right: 45px;
 }
 .header_area .navbar .nav .nav-item .nav-link {
-	font: 500 14px/100px "Rubik", sans-serif;
+	font: 500 14px/100px 'Rubik', sans-serif;
 	text-transform: uppercase;
 	color: #000000;
 	padding: 0px;
@@ -331,7 +331,7 @@ button:focus {
 	}
 }
 .header_area .navbar .nav .nav-item.submenu ul:before {
-	content: "";
+	content: '';
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -485,7 +485,7 @@ button:focus {
 	position: relative;
 }
 .home_banner_area .banner_inner .banner_content h3:after {
-	content: "";
+	content: '';
 	width: 410px;
 	height: 2px;
 	position: absolute;
@@ -571,7 +571,7 @@ button:focus {
 .banner_area .banner_inner .banner_content h2 {
 	color: #fff;
 	font-size: 50px;
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -584,12 +584,12 @@ button:focus {
 .banner_area .banner_inner .banner_content .page_link a {
 	font-size: 14px;
 	color: #fff;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-right: 20px;
 	position: relative;
 }
 .banner_area .banner_inner .banner_content .page_link a:before {
-	content: "-";
+	content: '-';
 	position: absolute;
 	right: -14px;
 	top: 50%;
@@ -620,7 +620,7 @@ button:focus {
 	padding: 0px 32px;
 	font-size: 13px;
 	font-weight: 500;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #000000;
 	line-height: 34px;
 	display: inline-block;
@@ -638,7 +638,7 @@ button:focus {
 	line-height: 40px;
 	padding: 0px 28px;
 	font-size: 14px;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
 	-webkit-transition: all 0.4s ease 0s;
@@ -695,7 +695,7 @@ button:focus {
 	bottom: 0px;
 }
 .causes_item .causes_img .c_parcent span:before {
-	content: "75%";
+	content: '75%';
 	position: absolute;
 	right: -10px;
 	bottom: 0px;
@@ -708,7 +708,7 @@ button:focus {
 }
 .causes_item .causes_text h4 {
 	color: #000000;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 15px;
@@ -732,7 +732,7 @@ button:focus {
 	line-height: 50px;
 	background: #4458dc;
 	color: #fff;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 }
@@ -858,7 +858,7 @@ button:focus {
 	padding-bottom: 20px;
 }
 .blog_info .post_tag a {
-	font: 300 14px/21px "Roboto", sans-serif;
+	font: 300 14px/21px 'Roboto', sans-serif;
 	color: #000000;
 }
 .blog_info .post_tag a:hover {
@@ -868,7 +868,7 @@ button:focus {
 	color: #4458dc;
 }
 .blog_info .blog_meta li a {
-	font: 300 14px/20px "Roboto", sans-serif;
+	font: 300 14px/20px 'Roboto', sans-serif;
 	color: #777777;
 	vertical-align: middle;
 	padding-bottom: 12px;
@@ -1495,7 +1495,7 @@ button:focus {
 .contact_info .info_item h6 {
 	font-size: 16px;
 	line-height: 24px;
-	color: "Roboto", sans-serif;
+	color: 'Roboto', sans-serif;
 	font-weight: bold;
 	margin-bottom: 0px;
 	color: #000000;
@@ -1517,7 +1517,7 @@ button:focus {
 	line-height: 26px;
 	color: #999;
 	border: 1px solid #eeeeee;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	border-radius: 0px;
 	padding-left: 20px;
 }
@@ -1579,7 +1579,7 @@ button:focus {
 	text-align: center;
 	color: #4458dc;
 	padding-bottom: 10px;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .modal-message .modal-dialog .modal-content .modal-header p {
 	display: block;
@@ -2327,7 +2327,7 @@ h6 {
 }
 
 .unordered-list li:before {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 14px;
 	height: 14px;
@@ -2551,7 +2551,7 @@ h6 {
 }
 
 .primary-switch input + label:before {
-	content: "";
+	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -2569,7 +2569,7 @@ h6 {
 }
 
 .primary-switch input + label:after {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 1px;
 	left: 1px;
@@ -2624,7 +2624,7 @@ h6 {
 }
 
 .confirm-switch input + label:before {
-	content: "";
+	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -2642,7 +2642,7 @@ h6 {
 }
 
 .confirm-switch input + label:after {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 1px;
 	left: 1px;
@@ -3207,7 +3207,7 @@ h6 {
 	}
 }
 .client-info:before {
-	content: "";
+	content: '';
 	position: absolute;
 	top: -25px;
 	left: -50px;
@@ -3228,7 +3228,7 @@ h6 {
 }
 .client-info .lage {
 	color: #854fee;
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 100px;
 	font-weight: 700;
 	line-height: 85px;
@@ -3238,7 +3238,7 @@ h6 {
 .client-info .smll {
 	text-align: left;
 	color: #000000;
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 20px;
 	margin-left: 20px;
 }
@@ -3417,7 +3417,7 @@ h6 {
 	font-size: 14px;
 }
 .portfolio_details_inner .portfolio_right_text .list li span {
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	color: #000000;
 	font-size: 16px;
 	font-weight: 500;
@@ -3582,7 +3582,7 @@ h6 {
 	border-radius: 5px;
 	line-height: 48px;
 	font-size: 14px;
-	font-family: "Rubik", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	padding: 0px 38px;
 	cursor: pointer;
 }
@@ -3671,21 +3671,21 @@ h6 {
 		background: #000;
 	}
 
-	.navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+	.navbar-toggler[aria-expanded='false'] span:nth-child(2) {
 		opacity: 1;
 	}
 
-	.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+	.navbar-toggler[aria-expanded='true'] span:nth-child(2) {
 		opacity: 0;
 	}
 
-	.navbar-toggler[aria-expanded="true"] span:first-child {
+	.navbar-toggler[aria-expanded='true'] span:first-child {
 		transform: rotate(-45deg);
 		position: relative;
 		top: 7.5px;
 	}
 
-	.navbar-toggler[aria-expanded="true"] span:last-child {
+	.navbar-toggler[aria-expanded='true'] span:last-child {
 		transform: rotate(45deg);
 		bottom: 6px;
 		position: relative;
@@ -4105,7 +4105,7 @@ h6 {
 	position: relative;
 }
 .footer_area:before {
-	content: "";
+	content: '';
 	position: absolute;
 	top: -200px;
 	left: 0px;
@@ -4146,7 +4146,7 @@ h6 {
 }
 @media (max-width: 576px) {
 	.footer_area .footer_social a i {
-		font-size: 25px;
+		font-size: 5rem;
 	}
 }
 .footer_area .footer_social a i:hover {
